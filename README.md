@@ -1,2 +1,2 @@
 # Python-Fireworks
-Python fireworks using the PIL library
+Wanted to challenge myself and only use the PIL library for making basic fireworks in Python
