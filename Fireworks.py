@@ -6,11 +6,11 @@ import random
 class Animation:
     def __init__(self, size):
         self.size = size 
-        self.x, self.y = np.random.randint(200 , 800, size=2)
+        self.x, self.y = np.random.randint(100 , 400, size=2)
 
     def create_decoration(self):
         for q in range(3):
-            self.img = Image.new('RGB', (1000, 1000))
+            self.img = Image.new('RGB', (500, 500))
             self.draw = ImageDraw.Draw(self.img)
 
             self.draw.rectangle([self.x, self.y, 
